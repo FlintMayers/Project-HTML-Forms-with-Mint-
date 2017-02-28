@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;;
+}
+
+header {
+  padding-top: 40px;
+  width: 100%;
+}
+
+#nav {
+  float: right;
+  list-style-type: none;
+  padding-top: 25px;
+}
+
+#nav li {
+  display: inline;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+#signUpLi {
+  margin-right: 10px;
+}
+
+#signUp {
+  font-weight: bold;
+}
+
+#login {
+  border-left: 1px solid #646964;
+  padding-left: 8px;
+}
+
+/*--End Header Styles--*/
+
+.main {
+  width: 100%;
+}
