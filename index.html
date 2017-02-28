@@ -4,19 +4,73 @@
     <meta charset="utf-8">
     <title>Mint Form</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
-      <a href="#"><img width="120" height="50" src="img/mint1.png" alt=""></a>
-      <ul id="nav">
-        <li id="signUpLi"><a id="signUp" href="#">Sign up</a></li>
-        <li id="login"><a href="#">Log in</a></li>
-      </ul>
-    </header>
-    <!-- ---End Header-- -->
-    <div class="main">
-
-    </div>
+    <div class="wrapper">
+      <header>
+        <a href="#"><img width="120" height="50" src="img/mint1.png" alt=""></a>
+        <ul id="nav">
+          <li id="signUpLi"><a id="signUp" href="#">Sign up</a></li>
+          <li id="login"><a href="#">Log in</a></li>
+        </ul>
+      </header>
+      <!-- ---End Header-- -->
+      <div class="main">
+        <div class="left-col">
+          <p id="title">See all you finances in one place &amp; create a budget</p>
+          <form class="" action="index.html" method="post">
+            <fieldset>
+              <label for="email">Your Email</label>
+              <input type="email" name="email" value="">
+            </fieldset>
+            <label for="cEmail">Confirm Email</label>
+            <input type="email" name="cEmail" value="">
+            <fieldset>
+              <label for="phone">Phone (recommended)</label>
+              <input type="tel" name="phone" value="">
+              <span id="comment">Standard call, messaging or data rates may apply.</span>
+            </fieldset>
+            <label for="password">Password</label>
+            <input type="password" name="password" value="">
+            <label for="cPassword">Confirm Password</label>
+            <input type="password" name="cPassword" value="">
+            <fieldset>
+              <input id="checkbox" type="checkbox" name="remember" value="">
+              <label for="remember">Remember me</label>
+            </fieldset>
+            <button type="button" name="button"><i class="fa fa-lock" aria-hidden="true"></i>SIGN UP</button>
+            <span id="terms">By clicking Sign Up you agree to our <a href="#">Terms of Use</a>and <a href="#">Privacy Statement</a></span>
+          </form>
+        </div>
+        <aside>
+          <div class="side-list">
+            <h4>Why you'll love it</h4>
+            <ul id="reasons">
+              <li>See all your accounts in one place</li>
+              <li>Set a budget and pay down your debt</li>
+              <li>Find the best ways to grow your money</li>
+              <li>Stay <a id="sns" href="#">safe and secure</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <!-- ---End Main-- -->
+      <footer>
+        <div class="secondary-links">
+          <a class="left-border" href="#">Support</a>
+          <a class="left-border" href="#">Terms of Use</a>
+          <a class="left-border" href="#">Privacy</a>
+          <a class="left-border" href="#">Legal and Trademark Notices</a>
+          <a id="no-border" href="#">About Intuit</a>
+        </div>
+        <div class="security-links">
+          <a href="#"><img width="140" height="35" src="img/norton.jpg" alt=""></a>
+          <a href="#"><img width="140" height="35" src="img/trust.png" alt=""></a>
+        </div>
+        <p id="socket">&copy; 2017 Intuit, Inc. <span id="numbers">ph7564i.6 - spa98.13</span></p>
+      </footer>
+    </div> <!-- End Wrapper -->
   </body>
 </html>
